@@ -280,11 +280,11 @@ Using Xcode snippets with completion shortcuts defined can make consistent forma
 
 **Weak Self**
 
-    __weak typeof(self) *weakSelf = self;
+    __weak <#class#> *weakSelf = self;
 
 **Strong Self**
 
-    __strong typeof(self) *strongSelf = weakSelf;
+    __strong <#class#> *strongSelf = weakSelf;
     if (! strongSelf)
     {
         return;
