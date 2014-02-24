@@ -97,7 +97,7 @@ Stick them to the variable, not to the type or spaced in between. Between is OK 
 Put a single blank line between methods. Use blank lines to clearly separate ideas in methods, especially before comments.
 
 ###Conditionals
-Always use curly braces, even if the expression would compile without them.
+Always use curly braces, even if the expression would compile without them. See the well-publicized Apple SSL bug for why (https://www.imperialviolet.org/2014/02/22/applebug.html).
 
     //do this
     if (!error)
